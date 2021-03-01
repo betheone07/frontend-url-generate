@@ -1,0 +1,17 @@
+
+  <div class="input-group input-group-lg" id="shorten">
+    <input type="text"  class="form-control rounded-0" [(ngModel)]="myurl" required>
+    <div class="input-group-append">
+      <button  type="button" (click)="getTheUrl()" class="btn btn-outline-secondary">Shorten</button>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="input-group" id="result">
+    <h4 id="meraheader">Shortened URL:</h4>
+    <span class="input-group-text" id="merabox">{{foundurl}}</span>
+  </div>
+  
