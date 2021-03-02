@@ -7,9 +7,9 @@ import { Router } from '@angular/router';
 })
 export class AuthorizeService {
 
-  private registerUrl = "https://backend-url.herokuapp.com/api/register";
-  private loginurl = "https://backend-url.herokuapp.com/api/login";
-  private shortenurl = "https://backend-url.herokuapp.com/url/shorten"
+  private registerUrl = "https://beurlshortener.herokuapp.com/api/register";
+  private loginurl = "https://beurlshortener.herokuapp.com/api/login";
+  private shortenurl = "https://beurlshortener.herokuapp.com/url/shorten"
 
   constructor(private http: HttpClient, private router: Router) { }
 

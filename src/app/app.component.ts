@@ -9,5 +9,5 @@ import { AuthorizeService } from './authorize.service';
 export class AppComponent {
   title = 'urlshortener-frontend';
 
-  constructor(private authService: AuthorizeService) { }
+  constructor(public authService: AuthorizeService) { }
 }
